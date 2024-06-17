@@ -1,14 +1,2 @@
-# Import numpy package
-import numpy as np
-
-# Create np_baseball (3 cols)
-np_baseball = np.array(baseball)
-
-# Print out addition of np_baseball and updated
-res = np_baseball + updated
-print(res)
-# Create numpy array: conversion
-conversion = np.array([0.0254,0.453592,1])
-
-# Print out product of np_baseball and conversion
-print(np_baseball * conversion)
+baseball = [1,2,4,5,6,7,8]
+print(baseball)
